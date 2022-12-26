@@ -1,90 +1,94 @@
-## Translation Progress Checklist
+## Lista de control del progreso de la traducción
 
-This document helps to track the state of your translation. Please copy it as an issue into your translation repo to track your progress.
+### Lista de moderadores
 
-### Maintainer List
+- [DanielMart-tech]([url](https://github.com/DanielMart-tech))
+- [elijahhampton]([url](https://github.com/elijahhampton))
+- [mektigboy]([url](https://github.com/mektigboy))
 
-[List the maintainers here.]
+### Información para nuevos traductores
 
-### Information for New Translators
+Para traducir una página:
 
-To translate a page:
+Verifica que nadie más haya reclamado la página que quieres traducir en la lista y comentarios a continuación. Comenta abajo con el nombre de la página que te gustaría traducir. Por favor, trabaja una página a la vez. Debes clonar este repositorio, traducir la página que seleccionaste, y hacer un pull request.
 
-Check that no one else has claimed your page in the checklist and comments below.
-Comment below with the name of the page you would like to translate. Please take only one page at a time.
-Clone this repo, translate your page, and submit a pull request!
+Antes de contribuir, lee el glosario y la guía de estilo (si es que existen, encontrarás los respectivos links aquí mismo) para comprender cómo traducir algunos términos específicos de Solidity y Ethereum.
 
-Before contributing, read the glossary and style guide (link them here if they exist) to understand how to translate various technical or Solidity/Ethereum-specific terms.
+Toma en cuenta que debes ser rápido con tus traducciones. En caso de que ya no puedas seguir con la traducción, debes comunicarte con los moderadores para que puedan asignar la página a alguien más.
 
-Please be prompt with your translations! If you find that you can't commit anymore, let the maintainers know so they can assign the page to someone else.
+### Para moderadores
 
-### For Maintainers
+Cuando alguien quiere contribuir, edita este issue con el nombre de usuario del contribuidor y con el número del pull request.
 
-When someone likes to contribute, edit this issue with the username of the contributor, and with the PR. 
-
-E.g. 
+Por ejemplo: 
 - [ ] index (@franzihei) #1
 
-When PRs are merged, make sure to mark that page as completed.
+Cuando se le haga merge al PR, asegúrate de marcar esa página como completada.
 
-### Core Pages
+### Páginas principales
 
-These pages need to be translated before the translation will be added as a new language to the Solidity docs flyout menu. Please translate these pages first. 
+Estas páginas necesitan ser traducidas antes de que la traducción sea añadida como nuevo idioma en el menú desplegable de la documentación de Solidity. Por favor traduce estas páginas primero.
 
 #### Basics
-- [ ] index
-- [ ] intro-to-smart-contracts
-- [ ] installing-solidity
-- [ ] solidity-by-example
+- [ ] Introduction to Smart Contracts
+- [ ] Installing the Solidity Compiler
+- [ ] Solidity by Example
 
 #### Language Description
-- [ ] layout-of-source-files
-- [ ] structure-of-a-contract
-- [ ] types
-- [ ] units-and-global-variables
-- [ ] control-structures
-- [ ] contracts
-- [ ] assembly
-- [ ] cheatsheet
-- [ ] grammar
+- [ ] Layout of a Solidity Source File
+- [ ] Structure of a Contract
+- [ ] Types
+- [ ] Units and Globally Available Variables
+- [ ] Expressions and Control Structures
+- [ ] Contracts
+- [ ] Inline Assembly
+- [ ] Cheatsheet
+- [ ] Language Grammar
 
+#### Compiler
+- [ ] Using the Compiler
+- [ ] Analysing the Compiler Output
+- [ ] Solidity IR-based Codegen Changes
+ 
 #### Internals
-- [ ] layout_in_storage
-- [ ] layout_in_memory
-- [ ] layout_in_calldata
-- [ ] variable_cleanup
-- [ ] source_mappings
-- [ ] optimiser
-- [ ] metadata
-- [ ] abi-spec
+- [ ] Layout of State Variables in Storage
+- [ ] Layout in Memory
+- [ ] Layout of Call Data
+- [ ] Cleaning Up Variables
+- [ ] Source Mappings
+- [ ] The Optimizer
+- [ ] Contract Metadata
+- [ ] Contract ABI Specification
 
 #### Additional Material
-- [ ] yul
-- [ ] natspec-format
-- [ ] security-considerations
-- [ ] common-patterns
+- [ ] NatSpec Format
+- [ ] Security Considerations
+- [ ] Yul
+- [ ] Common Patterns
 
-### Next Steps
+### Siguientes pasos
 
-These are the next most important translations, ordered by importance:
+Estas son las siguientes traducciones más imporatantes, ordenadas por importancia:
 
 #### Additional Material
 
-- [ ] using-the-compiler
-- [ ] contributing
-- [ ] 080-breaking-changes
-- [ ] 070-breaking-changes
-- [ ] 060-breaking-changes
-- [ ] 050-breaking-changes
-- [ ] resources
-- [ ] bugs
+- [ ] Contributing
+- [ ] Solidity v0.8.0 Breaking Changes
+- [ ] Solidity v0.7.0 Breaking Changes
+- [ ] Solidity v0.6.0 Breaking Changes
+- [ ] Solidity v0.5.0 Breaking Changes
+- [ ] SMTChecker and Formal Verification
+- [ ] Resources
+- [ ] List of Known Bugs
+- [ ] Import Path Resolution
+- [ ] Keyword Index
 
-### Additional Translations
+### Traducciones adicionales
 
-These are not the primary translation targets but still a nice to have!
+Estos no son primordiales para la traducción, pero aún así es bueno tenerlos.
 
-- [ ] style-guide
-- [ ] brand-guide
+- [ ] Language Influences
+- [ ] Style Guide
+- [ ] Solidity Brand Guide
 
-
-_Credits: This doc is derived from the [Progress Template](https://github.com/reactjs/reactjs.org-translation/blob/master/PROGRESS.template.md) of the ReactJS Localization Team._
+_Créditos: Este documento esta derivado del [Progress Template](https://github.com/reactjs/reactjs.org-translation/blob/master/PROGRESS.template.md) del equipo de localización de ReactJS._
