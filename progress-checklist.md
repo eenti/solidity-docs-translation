@@ -1,33 +1,34 @@
-## Lista de control del progreso de la traducción
+## Translation Progress Checklist
+
+This document helps to track the state of your translation. Please copy it as an issue into your translation repo to track your progress.
 
 ### Lista de moderadores
 
-- [DanielMart-tech]([url](https://github.com/DanielMart-tech))
-- [elijahhampton]([url](https://github.com/elijahhampton))
-- [mektigboy]([url](https://github.com/mektigboy))
+[List the maintainers here.]
 
-### Información para nuevos traductores
+### Information for New Translators
 
-Para traducir una página:
+To translate a page:
 
-Verifica que nadie más haya reclamado la página que quieres traducir en la lista y comentarios a continuación. Comenta abajo con el nombre de la página que te gustaría traducir. Por favor, trabaja una página a la vez. Debes clonar este repositorio, traducir la página que seleccionaste, y hacer un pull request.
+Check that no one else has claimed your page in the checklist and comments below. Comment below with the name of the page you would like to translate. Please take only one page at a time. Clone this repo, translate your page, and submit a pull request!
 
-Antes de contribuir, lee el glosario y la guía de estilo (si es que existen, encontrarás los respectivos links aquí mismo) para comprender cómo traducir algunos términos específicos de Solidity y Ethereum.
+Before contributing, read the glossary and style guide (link them here if they exist) to understand how to translate various technical or Solidity/Ethereum-specific terms.
 
-Toma en cuenta que debes ser rápido con tus traducciones. En caso de que ya no puedas seguir con la traducción, debes comunicarte con los moderadores para que puedan asignar la página a alguien más.
+Please be prompt with your translations! If you find that you can't commit anymore, let the maintainers know so they can assign the page to someone else.
 
-### Para moderadores
+### For Maintainers
 
-Cuando alguien quiere contribuir, edita este issue con el nombre de usuario del contribuidor y con el número del pull request.
+When someone likes to contribute, edit this issue with the username of the contributor, and with the PR.
 
-Por ejemplo: 
+E.g.
+
 - [ ] index (@franzihei) #1
 
-Cuando se le haga merge al PR, asegúrate de marcar esa página como completada.
+When PRs are merged, make sure to mark that page as completed.
 
-### Páginas principales
+### Core Pages
 
-Estas páginas necesitan ser traducidas antes de que la traducción sea añadida como nuevo idioma en el menú desplegable de la documentación de Solidity. Por favor traduce estas páginas primero.
+These pages need to be translated before the translation will be added as a new language to the Solidity docs flyout menu. Please translate these pages first.
 
 #### Basics
 - [ ] Introduction to Smart Contracts
@@ -66,9 +67,9 @@ Estas páginas necesitan ser traducidas antes de que la traducción sea añadida
 - [ ] Yul
 - [ ] Common Patterns
 
-### Siguientes pasos
+### Next Steps
 
-Estas son las siguientes traducciones más imporatantes, ordenadas por importancia:
+These are the next most important translations, ordered by importance:
 
 #### Additional Material
 
@@ -83,12 +84,12 @@ Estas son las siguientes traducciones más imporatantes, ordenadas por importanc
 - [ ] Import Path Resolution
 - [ ] Keyword Index
 
-### Traducciones adicionales
+### Additional Translations
 
-Estos no son primordiales para la traducción, pero aún así es bueno tenerlos.
+These are not the primary translation targets but still a nice to have!
 
 - [ ] Language Influences
 - [ ] Style Guide
 - [ ] Solidity Brand Guide
 
-_Créditos: Este documento esta derivado del [Progress Template](https://github.com/reactjs/reactjs.org-translation/blob/master/PROGRESS.template.md) del equipo de localización de ReactJS._
+_Credits: This doc is derived from the [Progress Template](https://github.com/reactjs/reactjs.org-translation/blob/master/PROGRESS.template.md) of the ReactJS Localization Team._
