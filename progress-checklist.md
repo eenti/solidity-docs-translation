@@ -2,7 +2,7 @@
 
 This document helps to track the state of your translation. Please copy it as an issue into your translation repo to track your progress.
 
-### Lista de moderadores
+### Maintainer List
 
 [List the maintainers here.]
 
